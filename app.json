@@ -1,37 +1,23 @@
 {
-  "expo": {
-    "name": "Loop",
-    "slug": "loop-school",
-    "version": "1.0.0",
-    "orientation": "portrait",
-    "scheme": "loop",
-    "userInterfaceStyle": "dark",
-    "backgroundColor": "#17132B",
-    "icon": "./assets/icon.png",
-    "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#17132B"
-    },
-    "assetBundlePatterns": ["**/*"],
-    "ios": {
-      "bundleIdentifier": "com.yourname.loop",
-      "supportsTablet": true,
-      "infoPlist": { "UIBackgroundModes": ["remote-notification"] }
-    },
-    "android": {
-      "package": "com.yourname.loop",
-      "adaptiveIcon": { "foregroundImage": "./assets/adaptive-icon.png", "backgroundColor": "#17132B" },
-      "permissions": ["NOTIFICATIONS"]
-    },
-    "web": { "favicon": "./assets/favicon.png" },
-    "plugins": [
-      ["expo-notifications", { "icon": "./assets/notification-icon.png", "color": "#C6F24E" }]
-    ],
-    "extra": {
-      "supabaseUrl": "",
-      "supabaseAnonKey": "",
-      "eas": { "projectId": "" }
-    }
-  }
+"expo": {
+"name": "Loop",
+"slug": "loop-school",
+"version": "1.0.0",
+"orientation": "portrait",
+"scheme": "loop",
+"userInterfaceStyle": "dark",
+"backgroundColor": "#17132B",
+"icon": "./assets/icon.png",
+"splash": {
+"image": "./assets/splash.png",
+"resizeMode": "contain",
+"backgroundColor": "#17132B"
+},
+"assetBundlePatterns": [
+"**/*"
+],
+"web": {
+"favicon": "./assets/favicon.png"
+}
+}
 }
